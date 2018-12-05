@@ -19,3 +19,16 @@ describe('<App />', () => {
     expect(snapshot).toMatchSnapshot();
   })
 })
+
+/*
+
+- does it render without blowing up
+- does it render the right UI
+- state/props handled correctly
+- events/methods working correctly
+
+Specifications
+
+- should be "off" by default
+
+*/
